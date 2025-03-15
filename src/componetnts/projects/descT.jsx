@@ -27,7 +27,7 @@ function DescT({ item }) {
                         <div key={i} className=" w-full h-auto rounded-lg overflow-hidden px-2">
                             <div className=" w-full h-full flex mdmax:flex-col border border-gray-300">
                                 <div className=" max-w-[150px] min-w-[150px] mdmax:max-w-full flex justify-center">
-                                    <img onClick={() => handlePopupPage(item.img)} className=" w-full h-full max-h-96 rounded-lg object-cover" src={item.img} alt="" />
+                                    <img onClick={() => handlePopupPage(item.img)} className=" w-full h-full max-h-44 smmax:max-h-96 rounded-lg object-cover" src={item.img} alt="" />
                                 </div>
                                 <div className=" p-3">
                                     <div className=" flex justify-between py-2">
