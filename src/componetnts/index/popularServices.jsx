@@ -8,7 +8,7 @@ function PopularServices() {
         { img: "../../images/popular-services/test2.jpg", text: "خدمات passive/active" },
     ]
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
